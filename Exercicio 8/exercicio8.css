@@ -1,0 +1,34 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin: 30px auto;
+    width: 320px;
+}
+
+.cell{
+    font-size: 24px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: antiquewhite;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.cell:hover{
+    background-color: blueviolet;
+}
+
+.message{
+    font-size: 40px;
+    margin: 30px;
+}
